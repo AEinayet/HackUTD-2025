@@ -1,8 +1,4 @@
-#*Monthly Payment = P * (r * (1 + r)^n) / ((1 + r)^n - 1)
-#where:
-#P = Principal (Loan Amount)
-#r = Monthly Interest Rate (Annual Rate / 12)
-#n = Total Number of Months **/
+
 
 def find_monthly_payment(model_car, amount_desired, n_month_estimated, annual_rate):
     p = amount_desired 
