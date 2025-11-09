@@ -1,0 +1,25 @@
+{
+  "name": "gemini-vehicle-data-pipeline",
+  "version": "1.0.0",
+  "description": "Gemini-First Vehicle Data Pipeline that generates, validates, and seeds vehicle data into SQLite",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node generate_with_gemini.js",
+    "seed": "node seed_sqlite.js"
+  },
+  "keywords": [
+    "gemini",
+    "vehicle",
+    "data-pipeline",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "ajv": "^8.12.0",
+    "better-sqlite3": "^11.6.0"
+  }
+}
+
